@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)http://127.0.0.1:5500/odin-recipes/recipes/healty-veggie-bowl.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Veggie Bowl</title>
+    
+<link rel="stylesheet" href="./Healthy Veggie Bowl_files/style.css"></head>
+<body>
+    
+    <h1>
+        Healthy Veggie Bowl
+    </h1>
+        
+        <img src="./Healthy Veggie Bowl_files/Healthy Veggie BowlII.png" alt="Healthy Veggie Bowl" height="410">
+
+        <h2>Description</h2>
+            <p>
+                This healthy veggie bowl is a simple, colorful, and nutritious meal made with<br>
+                fresh vegetables and perfectly cooked eggs. The combination of broccoli, sweet <br>
+                corn, and juicy cherry tomatoes creates a delicious balance of flavors and textures.
+            </p>
+            <p>
+                It is quick and easy to prepare, making it a perfect choice for breakfast, lunch, <br>
+                or a light dinner. Packed with protein, vitamins, and fresh ingredients, this dish<br>
+                is both healthy and satisfying.
+            </p>
+    <h2>Ingredients</h2>
+        
+        <ul>
+            <li>2 eggs</li>
+            <li>Broccoli</li>
+            <li>Sweet corn</li>
+            <li>Cherry tomatoes</li>
+            <li>Olive oil</li>
+            <li>Salt</li>
+            <li>Black pepper</li>
+            <li>Fresh parsley</li>
+        </ul>
+    <h2>Instructions</h2>
+        <ol>
+            <li>Wash and prepare the vegetables.</li>
+            <li>Boil or steam the broccoli.</li>
+            <li>Fry the eggs in a pan.</li>
+            <li>Arrange the vegetables in a bowl.</li>
+            <li>Add the eggs on top.</li>
+            <li>Season with salt and pepper.</li>
+            <li>Serve and enjoy.</li>
+        </ol>
+
+    <a href="http://127.0.0.1:5500/odin-recipes/index.html"><img class="homeback" src="./Healthy Veggie Bowl_files/icon.png" alt="Odin Recipes" height="100"></a>   
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
